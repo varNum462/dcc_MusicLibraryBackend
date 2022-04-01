@@ -1,11 +1,11 @@
-function musicValidate(req, res, next) {{}
+function musicValidate(req, res, next) {
     let song = req.body;
     let properties = [
         { name: "title", type: "string" },
         { name: "album", type: "string" },
         { name: "artist", type: "string" },
         { name: "genre", type: "string" },
-        { name: "releasDate", type: "string" },
+        { name: "releaseDate", type: "string" },
     ];
 
     for (const property of properties) {
